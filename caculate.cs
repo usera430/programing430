@@ -1,4 +1,4 @@
-public static class caculate{
+piublic static class caculate{
 	public int add(int a,int b)
 	{
 		return a+b;
@@ -9,5 +9,11 @@ public static class caculate{
 			return a;
 		else
 			return b;
+	}
+	public void swap(int &a, int &b)
+	{
+		int temp=a;
+		a=b;
+		b=temp;
 	}
 }
